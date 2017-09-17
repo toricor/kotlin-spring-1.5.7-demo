@@ -5,6 +5,8 @@ https://medium.com/@crsandeep/creating-and-testing-a-kotlin-restful-web-services
 `./gradlew bootRun`
 
 # API Endpoint
+ex. http://localhost:8080/hello/string
+
 - GET /hello/string
 - GET /hello/service
 - GET /hello/data
