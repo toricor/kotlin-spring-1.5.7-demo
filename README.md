@@ -2,8 +2,8 @@
 Spring Boot Kotlin and MyBatis(O/R Mapper) Tutorial
 
 ## Run the application
-setup db (see the below section)  
-`./gradlew bootRun`
+i) create database, create table and insert data (see the below section)  
+ii)`./gradlew bootRun`
 
 ## API Endpoint
 port: 8080 (defined in resources/application.properties)
