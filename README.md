@@ -19,7 +19,7 @@ port: 8080 (defined in resources/application.properties)
 - POST /api/customers/:id
 - DELETE /api/customers/:id
 
-#### Database
+#### RDBMS
 MySQL 5.7
 #### DDL
 ```
