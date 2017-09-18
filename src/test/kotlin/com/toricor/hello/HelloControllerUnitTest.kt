@@ -1,5 +1,8 @@
 package com.toricor.hello
 
+import com.toricor.hello.controller.HelloController
+import com.toricor.hello.entity.Hello
+import com.toricor.hello.service.HelloService
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.InjectMocks
