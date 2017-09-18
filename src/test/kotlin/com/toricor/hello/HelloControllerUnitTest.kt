@@ -29,7 +29,7 @@ class HelloControllerUnitTest {
         assertEquals("Hello service!", result)
     }
     @Test
-    fun testHelloDto() {
+    fun testHelloData() {
         val result = helloController.helloData()
         assertNotNull(result)
         assertEquals(Hello("Hello data!"), result)
