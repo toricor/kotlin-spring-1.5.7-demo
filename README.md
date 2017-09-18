@@ -36,7 +36,9 @@ CREATE TABLE customers IF NOT EXISTS customers(
 and insert some data
 
 #### POST EXAMPLE
+```
 curl -H "Content-type: application/json" -X POST -d '{"id":8, "firstName": "John", "lastName": "Great", "address": "hogehoge@gmail.com"}' http://localhost:8080/api/customers/8
+```
 
 ## References
 ### Hello World
