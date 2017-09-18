@@ -22,6 +22,6 @@ class HelloController {
     @GetMapping("/service")
     fun demoService() = helloService.getHello()
 
-    @GetMapping("/data")
-    fun helloData() = Hello("Hello data!")
+    @GetMapping("/data.sql")
+    fun helloData() = Hello("Hello data.sql!")
 }

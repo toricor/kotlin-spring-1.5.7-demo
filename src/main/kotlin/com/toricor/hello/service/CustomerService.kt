@@ -11,29 +11,29 @@ class CustomerService {
     @Autowired
     lateinit var customerRepository: CustomerRepository
 
-    fun findAll(): List<Customer> {
+    fun findAll(): List<Customer> =
         customerRepository.findAll()
-    }
 
-    fun findOne(val id: Int): Customer {
+
+    fun findOne(id: Int): Customer =
         customerRepository.findOne(id)
-    }
 
-    fun findByFirstName(val firstName: String): List<Customer> {
+
+    fun findByFirstName(firstName: String): List<Customer> =
         customerRepository.findByFirstName(firstName)
-    }
 
-    fun create(val customer: Customer): Customer {
+
+    fun create(customer: Customer): Customer {
         customerRepository.insert(customer)
         return customer
     }
 
-    fun update(val customer: Customer): Customer {
+    fun update(customer: Customer): Customer {
         customerRepository.update(customer)
         return customer
     }
 
-    fun delete(val id: Int) {
+    fun delete(id: Int) {
         customerRepository.delete(id)
     }
 

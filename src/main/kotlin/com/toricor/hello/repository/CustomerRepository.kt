@@ -18,7 +18,7 @@ interface CustomerRepository {
     @Select("SELECT * FROM customers WHERE id = #{id}")
     fun findOne(@Param("id") id: Int): Customer
 
-    @Insert("INSERT INTO customers(first_name, last_name, address) VALUES(#{first_name}, #{lastName}, #{address})")
+    @Insert("INSERT INTO customers(first_name, last_name, address) VALUES(#{firstName}, #{lastName}, #{address})")
     @SelectKey(statement = arrayOf("call identity()"), keyProperty = "id", before = false, resultType = Int::class)
     fun insert(customer: Customer)
 
@@ -34,7 +34,7 @@ interface CustomerRepository {
         FROM
             customers
         WHERE
-            first_name LIKE '%' || #{firstName} || '%'
+            first_name LIKE #{firstName}
         ORDER BY id
     """)
     fun findByFirstName(@Param("firstName") firstName: String): List<Customer>
