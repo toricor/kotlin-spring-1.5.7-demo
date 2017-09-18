@@ -35,6 +35,6 @@ class HelloControllerUnitTest {
     fun testHelloData() {
         val result = helloController.helloData()
         assertNotNull(result)
-        assertEquals(Hello("Hello data.sql!"), result)
+        assertEquals(Hello("Hello data!"), result)
     }
 }
