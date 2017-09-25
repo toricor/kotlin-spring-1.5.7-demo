@@ -1,6 +1,5 @@
 package com.toricor.hello.customer
 
-import com.toricor.hello.customer.Customer
 import org.apache.ibatis.annotations.Delete
 import org.apache.ibatis.annotations.Insert
 import org.apache.ibatis.annotations.Mapper
