@@ -1,4 +1,4 @@
-package com.toricor.hello.service
+package com.toricor.hello.hello
 
 import org.springframework.stereotype.Service
 

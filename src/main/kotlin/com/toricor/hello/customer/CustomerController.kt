@@ -1,7 +1,5 @@
-package com.toricor.hello.controller
+package com.toricor.hello.customer
 
-import com.toricor.hello.entity.Customer
-import com.toricor.hello.service.CustomerService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*

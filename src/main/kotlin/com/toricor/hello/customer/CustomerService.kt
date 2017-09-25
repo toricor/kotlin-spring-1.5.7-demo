@@ -1,7 +1,7 @@
-package com.toricor.hello.service
+package com.toricor.hello.customer
 
-import com.toricor.hello.entity.Customer
-import com.toricor.hello.repository.CustomerRepository
+import com.toricor.hello.customer.Customer
+import com.toricor.hello.customer.CustomerRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

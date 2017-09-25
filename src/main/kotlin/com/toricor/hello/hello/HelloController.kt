@@ -1,7 +1,7 @@
-package com.toricor.hello.controller
+package com.toricor.hello.hello
 
-import com.toricor.hello.entity.Hello
-import com.toricor.hello.service.HelloService
+import com.toricor.hello.hello.Hello
+import com.toricor.hello.hello.HelloService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping

@@ -1,3 +1,3 @@
-package com.toricor.hello.entity
+package com.toricor.hello.hello
 
 data class Hello(val message: String)

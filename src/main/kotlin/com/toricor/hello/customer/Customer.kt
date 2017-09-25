@@ -1,4 +1,4 @@
-package com.toricor.hello.entity
+package com.toricor.hello.customer
 
 data class Customer(
         val id: Int,
