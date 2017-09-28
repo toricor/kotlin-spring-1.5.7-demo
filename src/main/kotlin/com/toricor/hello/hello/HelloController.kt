@@ -13,7 +13,9 @@ class HelloController {
 
     @GetMapping("/string")
     fun helloString(): String {
-        return "Hello string!"
+        return "Hello string!" + Hoge().param_hoge + " " +
+                ClassName(1, "classname").toString() + " " +
+                ClassName(1).param1
     }
 
     @Autowired
