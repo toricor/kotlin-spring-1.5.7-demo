@@ -8,6 +8,7 @@ ii)`./gradlew bootRun` or `./gradlew build && java -jar build/libs/kotlin-spring
 
 ## API Endpoint
 port: 8080 (defined in resources/application.properties)
+
 ### Hello world
 - GET /hello/string
 - GET /hello/service
