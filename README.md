@@ -12,6 +12,7 @@ port: 8080 (defined in resources/application.properties)
 - GET /hello/string
 - GET /hello/service
 - GET /hello/data
+
 ### Get Customer(s)
 - GET /api/customers
 - GET /api/customers/:id
