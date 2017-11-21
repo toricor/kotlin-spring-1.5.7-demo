@@ -25,6 +25,9 @@ port: 8080 (defined in resources/application.properties)
 MySQL 5.7
 
 
+
+
+
 #### DDL
 ```
 CREATE DATABASE db_example
