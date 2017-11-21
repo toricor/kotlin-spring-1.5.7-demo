@@ -51,5 +51,3 @@ https://medium.com/@crsandeep/creating-and-testing-a-kotlin-restful-web-services
 ### Customers (MyBatis tutorial)
 http://blog.enjoyxstudy.com/entry/2016/12/26/000000
 
-## comment
-hogehogehoge
