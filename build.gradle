@@ -34,6 +34,8 @@ repositories {
 	mavenCentral()
 }
 
+
+
 configurations {
 	compile.exclude module: "spring-boot-starter-tomcat"
 }
