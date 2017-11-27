@@ -1,4 +1,4 @@
-# kotlin-spring-1.5.7-demoだよ
+# kotlin-spring-1.5.7-demo
 Spring Boot Kotlin and MyBatis(O/R Mapper) Tutorial
 
 ## Run the application
@@ -25,9 +25,6 @@ port: 8080 (defined in resources/application.properties)
 
 #### RDBMS
 MySQL 5.7
-
-
-
 
 #### DDL
 ```
