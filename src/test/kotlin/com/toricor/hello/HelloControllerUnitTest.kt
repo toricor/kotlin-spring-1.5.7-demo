@@ -14,7 +14,7 @@ import kotlin.test.assertNotNull
 
 @RunWith(MockitoJUnitRunner::class)
 class HelloControllerUnitTest {
-    // gitに差分を作るよ
+
     @InjectMocks
     lateinit var helloController: HelloController
     @Mock
