@@ -14,6 +14,7 @@ import kotlin.test.assertNotNull
 
 @RunWith(MockitoJUnitRunner::class)
 class HelloControllerUnitTest {
+
     @InjectMocks
     lateinit var helloController: HelloController
     @Mock
